@@ -1,0 +1,321 @@
+//Map {
+  //background-color: #b8dee6;
+//}
+
+#lake {
+  polygon-fill:#b8dee6;
+  }
+  
+//zoom less than 4  #00CC33 - green   #0000FF - blue
+
+#schools [zoom <= 4]
+[type2_desc='Regular']
+  {
+  marker-fill: #00CC33;
+  marker-width:1;
+  marker-fill:#00CC33;
+  marker-opacity:.3;
+  marker-line-opacity:0;
+  marker-allow-overlap:true;
+  }
+#schools [zoom <= 4] 
+[type2_desc='Private']
+{
+  marker-fill: #0000FF;
+  marker-width:1;
+  marker-fill: #0000FF;
+  marker-opacity:.3;
+  marker-line-opacity:0;
+  marker-allow-overlap:true;
+  }
+#schools [zoom <= 4] 
+[type2_desc='Special Education']
+{
+  marker-fill:  #FF9900;
+  marker-width:1;
+  marker-fill:  #FF9900;
+  marker-opacity:1;
+  marker-line-opacity:0;
+  marker-allow-overlap:true;
+  }
+#schools [zoom <= 4] 
+[type2_desc = 'Vocational'] [type2_desc = 'Alternative'][type2_desc = 'Reportable Program']
+{
+  marker-fill: #FF0000;
+  marker-width:1;
+  marker-fill: #FF0000;
+  marker-opacity:1;
+  marker-line-opacity:0;
+  marker-allow-overlap:true;
+  }
+
+//zoom 5
+
+#schools [zoom = 5]
+[type2_desc='Regular']
+	{
+  marker-fill: #00CC33;
+  marker-width:2.5;
+  marker-fill:#00CC33;
+  marker-opacity:.45;
+  marker-line-opacity:0;
+  marker-allow-overlap:true;
+  }
+#schools [zoom = 5]
+[type2_desc='Private']
+{
+  marker-fill: #0000FF;
+  marker-width:2.5;
+  marker-fill: #0000FF;
+  marker-opacity:.45;
+  marker-line-opacity:0;
+  marker-allow-overlap:true;
+  }
+#schools [zoom = 5]
+[type2_desc='Special Education']
+{
+  marker-fill:  	 #FF9900;
+  marker-width:2.5;
+  marker-fill:  	 #FF9900;
+  marker-opacity:1;
+  marker-line-opacity:0;
+  marker-allow-overlap:true;
+  }
+#schools [zoom = 5]
+[type2_desc = 'Vocational'] [type2_desc = 'Alternative'][type2_desc = 'Reportable Program']
+{
+  marker-fill: #FF0000;
+  marker-width:2.5;
+  marker-fill: #FF0000;
+  marker-opacity:1;
+  marker-line-opacity:0;
+  marker-allow-overlap:true;
+  }
+
+//zoom 6 and 7
+
+#schools [zoom >= 6][zoom <= 7]
+[type2_desc='Regular']
+	{
+  marker-fill: #00CC33;
+  marker-width:4;
+  marker-fill:#00CC33;
+  marker-opacity:.6;
+  marker-line-opacity:0;
+  marker-allow-overlap:true;
+  }
+#schools [zoom >= 6][zoom <= 7]
+[type2_desc='Private']
+{
+  marker-fill: #0000FF;
+  marker-width:4;
+  marker-fill: #0000FF;
+  marker-opacity:.6;
+  marker-line-opacity:0;
+  marker-allow-overlap:true;
+  }
+#schools [zoom >= 6][zoom <= 7]
+[type2_desc='Special Education']
+{
+  marker-fill:  	 #FF9900;
+  marker-width:4;
+  marker-fill:  	 #FF9900;
+  marker-opacity:1;
+  marker-line-opacity:0;
+  marker-allow-overlap:true;
+  }
+#schools [zoom >= 6][zoom <= 7]
+[type2_desc = 'Vocational'] [type2_desc = 'Alternative'][type2_desc = 'Reportable Program']
+{
+  marker-fill: #FF0000;
+  marker-width:4;
+  marker-fill: #FF0000;
+  marker-opacity:1;
+  marker-line-opacity:0;
+  marker-allow-overlap:true;
+  }
+
+//zoom 8 and 9
+
+#schools [zoom >= 8][zoom <=9 ]
+[type2_desc='Regular']
+	{
+  marker-fill: #00CC33;
+  marker-width:7;
+  marker-fill:#00CC33;
+  marker-opacity:.8;
+  marker-line-opacity:0;
+  marker-allow-overlap:true;
+  }
+#schools [zoom >= 8][zoom <=9 ]
+[type2_desc='Private']
+{
+  marker-fill: #0000FF;
+  marker-width:7;
+  marker-fill: #0000FF;
+  marker-opacity:.8;
+  marker-line-opacity:0;
+  marker-allow-overlap:true;
+  }
+#schools [zoom >= 8][zoom <=9 ]
+[type2_desc='Special Education']
+{
+  marker-fill:  	 #FF9900;
+  marker-width:7;
+  marker-fill:  	 #FF9900;
+  marker-opacity:1;
+  marker-line-opacity:0;
+  marker-allow-overlap:true;
+  }
+#schools [zoom >= 8][zoom <=9 ]
+[type2_desc = 'Vocational'] [type2_desc = 'Alternative'][type2_desc = 'Reportable Program']
+{
+  marker-fill: #FF0000;
+  marker-width:7;
+  marker-fill: #FF0000;
+  marker-opacity:1;
+  marker-line-opacity:0;
+  marker-allow-overlap:true;
+  }
+
+//zoom 10 and 11
+#schools [zoom >= 10][zoom <=11]
+[type2_desc='Regular']
+	{
+  marker-fill: #00CC33;
+  marker-width:9;
+  marker-fill:#00CC33;
+  marker-opacity:1;
+  marker-line-opacity:0;
+  marker-allow-overlap:true;
+  }
+#schools [zoom >= 10][zoom <=11]
+[type2_desc='Private']
+{
+  marker-fill: #0000FF;
+  marker-width:9;
+  marker-fill: #0000FF;
+  marker-opacity:1;
+  marker-line-opacity:0;
+  marker-allow-overlap:true;
+  }
+#schools [zoom >= 10][zoom <=11]
+[type2_desc='Special Education']
+{
+  marker-fill:  	 #FF9900;
+  marker-width:9;
+  marker-fill:  	 #FF9900;
+  marker-opacity:1;
+  marker-line-opacity:0;
+  marker-allow-overlap:true;
+  }
+#schools [zoom >= 10][zoom <=11]
+[type2_desc = 'Vocational'] [type2_desc = 'Alternative'][type2_desc = 'Reportable Program']
+{
+  marker-fill: #FF0000;
+  marker-width:9;
+  marker-fill: #FF0000;
+  marker-opacity:1;
+  marker-line-opacity:0;
+  marker-allow-overlap:true;
+  }
+
+//zoom 12 and 13
+
+#schools [zoom >= 12][zoom <=13]
+[type2_desc='Regular']
+	{
+  marker-fill:#00CC33;
+  marker-width:11;
+  marker-fill:#00CC33;
+  marker-opacity:1;
+  marker-line-opacity:0;
+  marker-allow-overlap:true;
+  }
+#schools [zoom >= 12][zoom <=13]
+[type2_desc='Private']
+{
+  marker-fill: #0000FF;
+  marker-width:11;
+  marker-fill: #0000FF;
+  marker-opacity:1;
+  marker-line-opacity:0;
+  marker-allow-overlap:true;
+  }
+#schools [zoom >= 12][zoom <=13]
+[type2_desc='Special Education']
+{
+  marker-fill:  	 #FF9900;
+  marker-width:11;
+  marker-fill:  	 #FF9900;
+  marker-opacity:1;
+  marker-line-opacity:0;
+  marker-allow-overlap:true;
+  }
+#schools [zoom >= 12][zoom <=13]
+[type2_desc = 'Vocational'] [type2_desc = 'Alternative'][type2_desc = 'Reportable Program']
+{
+  marker-fill: #FF0000;
+  marker-width:11;
+  marker-fill: #FF0000;
+  marker-opacity:1;
+  marker-line-opacity:0;
+  marker-allow-overlap:true;
+  }
+//zoom level 14 and 15
+#schools [zoom >= 14][zoom <=15]
+[type2_desc='Regular']
+	{
+  marker-fill: #00CC33;
+  marker-width:13;
+  marker-fill:#00CC33;
+  marker-opacity:1;
+  marker-line-opacity:0;
+  marker-allow-overlap:true;
+  }
+#schools [zoom >= 14][zoom <=15]
+[type2_desc='Private']
+{
+  marker-fill: #0000FF;
+  marker-width:13;
+  marker-fill: #0000FF;
+  marker-opacity:1;
+  marker-line-opacity:0;
+  marker-allow-overlap:true;
+  }
+#schools [zoom >= 14][zoom <=15]
+[type2_desc='Special Education']
+{
+  marker-fill:  	#FF9900;
+  marker-width:13;
+  marker-fill:  	#FF9900;
+  marker-opacity:1;
+  marker-line-opacity:0;
+  marker-allow-overlap:true;
+  }
+#schools [zoom >= 14][zoom <=15]
+[type2_desc = 'Vocational'] [type2_desc = 'Alternative'][type2_desc = 'Reportable Program']
+{
+  marker-fill: #FF0000;
+  marker-width:13;
+  marker-fill: #FF0000;
+  marker-opacity:1;
+  marker-line-opacity:0;
+  marker-allow-overlap:true;
+  }
+//#E0E0E0
+
+#state {
+  polygon-fill: #E0E0E0 ;
+  line-color: #FFFFFF;
+  line-width:0.5;
+}
+
+#countries {
+  ::outline {
+    line-color: #85c5d3;
+    line-width: 2;
+    line-join: round;
+ }
+ polygon-fill: #fff;
+}
